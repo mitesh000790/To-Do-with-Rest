@@ -1,0 +1,40 @@
+.user {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+main {
+  margin: 16px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background: #1294FC;
+  color: white;
+  font-family: Helvetica;
+  font-weight: 300;
+}
+
+.navbar__title {
+  margin-right: auto;
+  font-size: 150%;
+  padding: 12px 16px;
+}
+
+.navbar__item {
+  padding: 16px 16px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+a:active{
+  color: #fdca40;
+}
